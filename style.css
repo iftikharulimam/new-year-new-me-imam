@@ -1,0 +1,226 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/banner/banner2.jpg");
+    background-repeat: no-repeat;
+}
+.banner-description-first{
+    position: absolute;
+    font-size: 65px;
+    line-height: 76px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    left: 846px;
+    top: 215px;
+    color: #151414;
+    font-family: 'Work Sans';
+}
+.banner-description-last{
+    position: absolute;
+    width: 494px;
+    height: 71px;
+    left: 876px;
+    top: 475px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 15px;
+    color: #444343;
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+}
+.btn-banner{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    left: 1200px;
+    top: 574px;
+    background: #F15B22;
+    border: none;
+    margin: 25px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.main-image{
+    background-repeat: no-repeat;
+}
+.middle-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.text-primary{
+    position: absolute;
+    width: 315.94px;
+    height: 97.77px;
+    left: 1000px;
+    top: 1250px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.text-secondary{
+    position: absolute;
+    width: 456.36px;
+    height: 108.17px;
+    left: 1000px;
+    top: 1375px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.text-tertiary{
+    position: absolute;
+    width: 345.56px;
+    height: 27.04px;
+    left: 1000px;
+    top: 1450px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.text-tertiary-details{
+    list-style-type: none;
+}
+.planning-section{
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+}
+.my-plan{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.logo-description{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+.logo-description-details{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #737272;
+    text-align: center;
+}
+.last-image{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 10px;
+    top: 100px;
+}
+.image-container{
+    Display: grid;
+    Grid-template-columns: repeat(12, 1fr);
+    Position: relative;
+}
+.image-text{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 90px;
+    top: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.btn-image{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 90px;
+    top: 247px;
+    color: #F15B22;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: 0;
+    margin: 0%;
+}
+.footer-section{
+    position: absolute;
+    left: 10px;
+    top: 2650px;
+    display: flex;
+    gap: 100px;
+    background-color:#d3c5bc;
+}
+.footer-section-details{
+    display: flex;
+    gap: 900px;
+    padding: 100px;
+}
+.btn-form{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    height: 44px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 15px;
+}
+.footer-text{
+    font-family: sans-serif;
+    font-weight: 1500;
+    font-size: 70px;
+    height: 64px;
+    color: #FFFFFF;
+}
+.footer-text-details{
+    font-family: sans-serif;
+    font-weight: 1500;
+    font-size: 17px;
+    height: 64px;
+    color: #FFFFFF;
+}
+.footer-form-text{
+    font-family: sans-serif;
+    font-weight: 1500;
+    font-size: 40px;
+    height: 64px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 1100px;
+    top: 130px;
+}
+.form{
+    position: absolute;
+    left: 1100px;
+    top: 220px;
+    height: 100px;
+}
